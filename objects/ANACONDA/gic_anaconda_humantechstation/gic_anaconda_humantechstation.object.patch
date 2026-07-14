@@ -1,0 +1,8 @@
+[
+	{
+		"op": "add",
+		"path": "/offeredQuests/-",
+		"value": "gic_equipmentcheck_neki"
+	},
+	{"op":"add","path":"/nekiDescription","value":"\"Covas Voice-Activated System?\"\nJust call it a game manual."}
+]

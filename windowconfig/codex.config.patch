@@ -1,0 +1,12 @@
+[
+  //  { "op": "replace", "path": "/paneLayout/background/fileBody", "value": "/interface/codex/body_blank.png" },
+  //  { "op": "replace", "path": "/paneLayout/speciesTabs/buttons/0", "value": { "selected": true, "position": [ 58, 183 ], "baseImage": "/interface/codex/gic_tab_garden.png", "baseImageChecked": "/interface/codex/gic_tab_garden_select.png", "pressedOffset": [ 0, 0 ], "data": { "species": "garden", "speciesTitle": "Garden" } } },
+  //  { "op": "replace", "path": "/paneLayout/speciesTabs/buttons/1", "value": { "position": [ 58, 158 ], "baseImage": "/interface/codex/gic_tab_division16.png", "baseImageChecked": "/interface/codex/gic_tab_division16_select.png", "pressedOffset": [ 0, 0 ], "data": { "species": "division16" } } },
+  //  { "op": "replace", "path": "/paneLayout/speciesTabs/buttons/2", "value": { "position": [ 58, 133 ], "baseImage": "/interface/codex/gic_tab_afflicted.png", "baseImageChecked": "/interface/codex/gic_tab_afflicted_select.png", "pressedOffset": [ 0, 0 ], "data": { "species": "afflicted" } } },
+  //  { "op": "replace", "path": "/paneLayout/speciesTabs/buttons/3", "value": { "position": [ 58, 108 ], "baseImage": "/interface/codex/gic_tab_subterranean.png", "baseImageChecked": "/interface/codex/gic_tab_subterranean_select.png", "pressedOffset": [ 0, 0 ], "data": { "species": "subterranean" } } },
+  //  { "op": "replace", "path": "/paneLayout/speciesTabs/buttons/4", "value": { "position": [ 58, 83 ], "baseImage": "/interface/codex/gic_tab_eskhatos.png", "baseImageChecked": "/interface/codex/gic_tab_eskhatos_select.png", "pressedOffset": [ 0, 0 ], "data": { "species": "eskhatos" } } },
+  //  { "op": "replace", "path": "/paneLayout/speciesTabs/buttons/5", "value": { "position": [ 58, 58 ], "baseImage": "/interface/codex/gic_tab_wildlands.png", "baseImageChecked": "/interface/codex/gic_tab_wildlands_select.png", "pressedOffset": [ 0, 0 ], "data": { "species": "wildlands" } } },
+  //  { "op": "replace", "path": "/paneLayout/speciesTabs/buttons/6", "value": { "position": [ 58, 33 ], "baseImage": "/interface/codex/gic_tab_khurtovyna.png", "baseImageChecked": "/interface/codex/gic_tab_khurtovyna_select.png", "pressedOffset": [ 0, 0 ], "data": { "species": "khurtovyna" } } },
+  //  { "op": "remove", "path": "/paneLayout/speciesTabs/buttons/21" },
+  //  { "op": "replace", "path": "/paneLayout/scrollBG/file", "value": "/interface/codex/scrollbg.png" }
+]

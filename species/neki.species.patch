@@ -1,0 +1,41 @@
+[
+    [{
+  "op": "replace",
+  "path": "/charCreationTooltip/description",
+  "value": "^#CC8A4D;Archetype: Duellist^reset;\nThe Duelist is a melee-focused fighter that excels at opening with hyper-precise criticals from their unconventional ancient weaponry, before getting in close with melee and parrying. Duellists specialize well against bosses and elites, and their specialized weapons are extremely ammo-efficient.\n                                                ^cyan;But where are my claws? My claws were better.^reset;\n^#CC8A4D;Species: Neki^reset;\nAllegedly, \"Neki\" is merely a shorthand for the maneki-neko, a feline-human hailing from Gensyoko. They had once been known for their ability to bring fortune to markets; they still retain their agility and senses.\n                                                                   ^cyan;Oh, I love playing purretend! =^.^= ^reset;\n^#CC8A4D;Indomitable [Ability]^reset; - Taking more than 15 DMG grants +100% DMG RES for the next 3s | 30s Cooldown.\n\n^#CC8A4D;Flowing Water [Ability]^reset; - Successful parries heal the player for 4HP/s for 2s.\n\n^#CC8A4D;Blessed Shots [Ability]^reset; - Guaranteed crits on the next shot with a Bow, Crossbow, Throwing Weapon, or Muzzle-Loader | 10s cooldown.\n\n^red;Short-Sighted [Penalty]^reset; - -15% Proficiency with firearms. Does not apply for Bows, Crossbows, Throwing Weapons, or Muzzle-Loaders.\n\n^orange;Alcohol Addiction^reset; - ^cyan;Yuck, no thanks. You won't be getting that.  =>.<=^reset;"
+ }],
+/*  Currently OpenStarbound has issuees displaying ^=.=^. I'm waiting on a fix. */
+    [ {
+            "op": "test",
+            "path": "/statusEffects",
+            "inverse": true
+        },
+        {
+            "op": "add",
+            "path": "/statusEffects",
+            "value": []
+        } ],
+/* [
+{ "op": "add", "path": "/statusEffects/-","value": "gic_trait_healthincrease_25"},
+{ "op": "add", "path": "/statusEffects/-","value": "gic_trait_energymodifier"},
+{ "op": "add", "path": "/statusEffects/-","value": "gic_player_death_blood_explosion"}, 
+{ "op": "add", "path": "/statusEffects/-","value": "gic_trait_duellist_activeability_bypass"},
+{ "op": "add", "path": "/statusEffects/-","value": "gic_hidden_weightalleviation"},
+{ "op": "add", "path": "/statusEffects/-","value": "gic_hidden_weightalleviation_combat_marker"},
+{ "op": "add", "path": "/statusEffects/-","value": "gic_hidden_weightalleviation_combat_primer"},
+{ "op": "add", "path": "/statusEffects/-","value": "gic_bloodied_core_primer"}
+] */
+[
+    { "op": "add", "path": "/statusEffects/-","value": "gic_trait_healthincrease_25"},
+    { "op": "add", "path": "/statusEffects/-","value": "gic_trait_energymodifier"},
+    { "op": "add", "path": "/statusEffects/-","value": "gic_speciestag_wolftengu_duellist"},
+    { "op": "add", "path": "/statusEffects/-","value": "gic_player_death_blood_explosion"}, 
+    { "op": "add", "path": "/statusEffects/-","value": "gic_trait_duellist_activeability_bypass"},
+    { "op": "add", "path": "/statusEffects/-","value": "gic_hidden_weightalleviation"},
+    { "op": "add", "path": "/statusEffects/-","value": "gic_hidden_weightalleviation_combat_marker"},
+    { "op": "add", "path": "/statusEffects/-","value": "gic_hidden_weightalleviation_combat_primer"},
+    { "op": "add", "path": "/statusEffects/-","value": "gic_bloodied_core_primer"},
+    { "op": "add", "path": "/statusEffects/-","value": "gic_trait_duellist_shortsighted"} 
+    // { "op": "add", "path": "/statusEffects/-","value": "gic_trait_duellist_stress_alcoholaddiction" }
+    ]
+]

@@ -1,0 +1,48 @@
+{
+  "id" : "gic_bootship_neki",
+  "prerequisites" : [ "gic_neki_introquest" ],
+  "mainQuest" : true,
+  "showAcceptDialog" : false,
+  "showCompleteDialog" : false,
+  "showFailDialog" : false,
+  "title" : "Let's Go!",
+  "text" : "The ship's running now, so go go go! What's next? You decide!",
+  "completionText" : "The ship's running now, so go go go! What's next? You decide!",
+  "moneyRange" : [50, 50],
+  "rewards" : [
+    [ ]
+  ],
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/INTROS/gic_bootship.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/interface/MISSION_PORTRAITS/gic_questicon_player.png"} ],
+        "title" : ""
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/interface/MISSION_PORTRAITS/gic_questicon_player.png"} ],
+        "title" : ""
+      }
+    },
+
+    "descriptions" : {
+      "wakeSail" : "Boot up the ship computer."
+    },
+
+    "stunTime" : 8.0,
+
+    "showTech" : [
+    ],
+    "equipTech" : [
+    ],
+
+    "compassUpdate" : 0.2,
+
+    "techstationUid" : "techstation",
+    "shipUpgrade" : {
+      "shipLevel" : 1
+    }
+  }
+}

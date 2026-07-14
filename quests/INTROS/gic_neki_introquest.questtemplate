@@ -1,0 +1,87 @@
+{
+  "id" : "gic_neki_introquest",
+  "mainQuest" : true,
+  "title" : "Somewhere Strange",
+  "text":"You were following some weird rabbit and stepped behind a curtain. Feeling tired, you decided to nap somewhere... next thing you know, you're somewhere really weird. \n \n [ARCHETYPE: DUELIST]",
+  //"text" : "''The world is named Gensokyo, where Man will lead the final battle against the Abyss. It is one hundred miles long on each side. That's why this valley is chosen.''
+
+//[ARCHETYPE: DUELLIST]",
+  "completionText" : "...just keep exploring, alright?\n\n^gray;Believe it or not, this is debug text.^reset;", //This text is not used or displayed.
+  "moneyRange" : [0, 0],
+  "canBeAbandoned" : false,
+  "invisible" : false,
+  "logOnly" : true,
+  
+  "showAcceptDialog" : false,
+  "showCompleteDialog" : false,
+  "showFailDialog" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/tutorial/gic_generic_voidintro.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/interface/MISSION_PORTRAITS/gic_questicon_player.png"} ],
+        "title" : ""
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/interface/MISSION_PORTRAITS/gic_questicon_player.png"} ],
+        "title" : ""
+      }
+    },
+	
+    "startingMusicTime" : 0.0, //11.5
+    "startingMusicTracks" : ["/music/Highfleet/gic_precombat_drop_04.ogg"],
+    "openingCinematic" : "/cinematics/DREAMS/gic_dream_intro_1.cinematic", //On waking
+	
+	
+	
+    "midpointMusicTime" : 160.0, //48
+    "midpointMusicTracks" : ["/music/TotalWarAttila/gic_totalwarattila_assaultbysea_dynamic.ogg"],
+    "midpointCinematic" : "/cinematics/gic_respawndeath_hunt.cinematic",
+    "midpointTeleportPosition" : [495, 823.5],
+	
+	
+	
+    "endpointCinematic" : "/cinematics/DREAMS/gic_dream_intro_3.cinematic",
+	
+	
+    "confiscateItems" : [
+      "brokenprotectoratebroadsword",
+      "protectorateflowerhead",
+      ["salve", 1000],
+      ["bandage", 1000],
+      "afprotectorateflower",
+      ["money", 1000],
+      ["ash", 1000]
+    ],
+    "skipIntroItems" : [
+    "invisiblefabrichead", //neki-only
+    "gic_infantrymans_rapier",
+	  "gic_crudewoodenshield",
+	  ["gic_kmp2_medkit", 3],
+	  "gic_akaron_flashlight",
+	  "gic_sling",
+    "gic_outsiders_mark",
+	  "gic_entrenchingtool",
+	  "gic_wiringtoolset",
+	  "gic_usmifak_medkit",
+	  "gic_gambesonhead",  
+	  "gic_sunshogunatefootsoldierhead",
+	  "gic_loricasegmentatahead",
+	  "gic_duellistscoatofarms",
+	  "gic_us_k_ration",
+	  ["gic_inferiormoonshine",2],
+	  ["gic_leadslingbullet",40]
+    ],
+
+    "descriptions" : {
+      "findbearing" : "A bad dream...?",
+      "findequipment" : "Find your equipment.",
+	  "findanomaly" : "Reach the Anomaly.",
+      "escape" : "..."
+    },
+
+    "followUp" : "gic_bootship_neki" //Was supposed to enter the bootship, but because the tech station wasn't updated it's sort of bugged. However, this is now intentional because it doesn't really do anything.
+  }
+}

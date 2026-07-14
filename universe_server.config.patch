@@ -1,0 +1,36 @@
+[
+	[
+		{
+			"op": "test",
+			"path": "/speciesShips/neki/0",
+			"value": "/ships/neki/nekiT0.structure"
+		},
+		{
+			"op": "replace",
+			"path": "/speciesShips/neki",
+			"value": [
+				"/ships/gic_realistichuman/gic_realistichumant0.structure",
+				"/ships/gic_realistichuman/gic_realistichumant1.structure",
+				"/ships/gic_realistichuman/gic_realistichumant2.structure",
+				"/ships/gic_realistichuman/gic_realistichumant3.structure",
+				"/ships/gic_realistichuman/gic_realistichumant4.structure",
+				"/ships/gic_realistichuman/gic_realistichumant5.structure",
+				"/ships/gic_realistichuman/gic_realistichumant6.structure",
+				"/ships/gic_realistichuman/gic_realistichumant7.structure",
+				"/ships/gic_realistichuman/gic_realistichumant8.structure"
+			]
+		}
+	],
+	[
+		{
+			"op": "test",
+			"path": "/introInstance/neki",
+			"inverse": true
+		},
+		{
+			"op": "add",
+			"path": "/introInstance/neki",
+			"value": "gic_generic_voidintro"
+		}
+	]
+]

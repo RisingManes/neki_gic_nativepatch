@@ -1,0 +1,51 @@
+{
+  "id" : "gic_equipmentcheck_neki",
+  "title" : "^#D1FFDE;Waking Up^reset;",
+  "prerequisites" : [ "gic_bootship_neki" ],
+  "text" : "You woke up from your nap. Who cares what's happening, anyway? Just hit that switch!",
+  "completionText" : "What conspiracies are we cooking on the menu today?\n^orange;[Neki Hops] can now be performed by double-tapping A or D | [Jump Drive] can be activated by jumping again in mid-air | [Veil Form] is activated by holding F to get respect for 1s.",
+  "moneyRange" : [0,0],
+  "ephemeral" : false,
+  "rewards" : [
+    [ ]
+  ],
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/INTROS/gic_equipmentcheckup.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/interface/MISSION_PORTRAITS/gic_questicon_player.png"} ],
+        "title" : ""
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/interface/MISSION_PORTRAITS/gic_questicon_player.png"} ],
+        "title" : ""
+      }
+    },
+
+    "requireTurnIn" : false,
+	
+    "showTech": [ 
+    "gic_sprint",
+	  "gic_jumpdrive",
+	  "gic_acolytesveil",
+    "nekihops"
+    ],
+    "maketechavailable": [
+      "nekihops",
+      "gic_jumpdrive",
+      "gic_acolytesveil",
+      "gic_sprint"
+    ],
+    "equipTech": [
+      "gic_sprint",
+      "gic_jumpdrive",
+      "gic_acolytesveil" ,
+      "nekihops"
+    ],
+	
+    "conditions" : [
+    ]
+  }
+}
