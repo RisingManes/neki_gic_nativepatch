@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "I'm going to do a cool trick!\n^gray;*knocks over*^reset;"
+  }
+]

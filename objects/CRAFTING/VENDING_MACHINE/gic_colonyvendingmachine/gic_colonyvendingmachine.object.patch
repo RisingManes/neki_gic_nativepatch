@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "You can have it spit out: water, water, \nyucky food, yucky bean juice, or juice \nthat makes you feel funny."
+  }
+]
