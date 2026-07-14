@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "Fight the fabric and claim \nclothes as your reward!\n\n^orange;Tech Line:^reset; Unifurrms \n^orange;Tech Unlocks:^reset; Sewing Wurrkstation\n^gray;There's a 'dev note'; apparently you can't make \"Eskathos\" stuff yet.^reset;"
+  }
+]

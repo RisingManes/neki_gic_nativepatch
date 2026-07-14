@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "^gray;*sniff*^reset;\nThis table smells nice. \nYou can make anti-ouch paste \nand seeds here.\n\n^orange;Tech Line:^reset; Medical\n^orange;Tech Unlocks:^reset; Medical\nWurrkstation, Alcohol Distiller ^gray;(yuck)^reset;"
+  }
+]

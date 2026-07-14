@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "Make some fancy glass and \nelectronic thingies here!\n\n^orange;Tech Line:^reset; Energy Weaponry\n^orange;Tech Unlocks:^reset; Nope!"
+  }
+]
