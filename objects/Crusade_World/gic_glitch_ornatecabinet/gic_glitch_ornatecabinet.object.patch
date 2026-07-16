@@ -1,1 +1,7 @@
-[{"op":"add","path":"/nekiDescription","value":"These lock from the outside. Ergo, they are a trap."}]
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "These lock from the outside. \nErgo, they are a trap."
+  }
+]
