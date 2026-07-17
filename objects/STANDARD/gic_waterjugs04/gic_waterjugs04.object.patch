@@ -1,1 +1,7 @@
-[{"op":"add","path":"/nekiDescription","value":"A water bottle, and a\ns  w  b\nI  a  o\nd  t  t\ne  e  t\nw  r  l\na     e."}]
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "A water bottle, and a\n s  w  b\n i  a  o\n d  t  t\n e  e  t\n w  r  l\n a  ^clear;.^reset;  e\n y  ^clear;.^reset;   .\n s  ^clear;.   .^reset;"
+  }
+]

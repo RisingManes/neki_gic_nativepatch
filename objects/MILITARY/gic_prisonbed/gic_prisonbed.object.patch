@@ -5,7 +5,7 @@
   ],
   [
     { "op": "add", "path": "/nekiDescription", "value": "It's meant for sleeps, so I sleeps." },
-    { "op": "add", "path": "/sitStatusEffects/-", "value": "nekipurr" },
-    { "op": "add", "path": "/sitStatusEffects/-", "value": "nekihidebedcover" }
+    { "op": "add", "path": "/sitStatusEffects/-", "value": "nekipurr" }
+
   ]
 ]

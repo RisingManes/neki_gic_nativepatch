@@ -5,7 +5,7 @@
   ],
   [
     { "op": "add", "path": "/nekiDescription", "value": "Being flat isn't always bad." },
-    { "op": "add", "path": "/sitStatusEffects/", "value": "nekipurr" },
-    { "op": "add", "path": "/sitStatusEffects/", "value": "nekihidebedcover" }
+    { "op": "add", "path": "/sitStatusEffects/", "value": "nekipurr" }
+
   ]
 ]
