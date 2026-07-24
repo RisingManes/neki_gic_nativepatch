@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "^gray;*sniff*^reset;\nSomeone told me, \"light fuse and get away\"."
+  }
+]
