@@ -1,1 +1,7 @@
-[{"op":"add","path":"/nekiDescription","value":"^gray;*licks^reset;\nMrr, it's watered-down blood!"}]
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "^gray;*licks^reset;\nBl\u00f6d!"
+  }
+]

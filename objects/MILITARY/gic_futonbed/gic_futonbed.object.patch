@@ -1,7 +1,32 @@
 [
-  {
-    "op": "add",
-    "path": "/nekiDescription",
-    "value": "Being flat isn't always bad."
-  }
+  [
+    {
+      "op": "test",
+      "path": "/sitStatusEffects",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/sitStatusEffects",
+      "value": []
+    }
+  ],
+  [
+    [
+      {
+        "op": "add",
+        "path": "/nekiDescription",
+        "value": "Being flat isn't always bad.\nBut it might be this time."
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "op": "add",
+        "path": "/sitStatusEffects/",
+        "value": "nekipurr"
+      }
+    ]
+  ]
 ]
