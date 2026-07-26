@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "^gray;*moves blankets*^reset;\nThese aren't the right color."
+  }
+]

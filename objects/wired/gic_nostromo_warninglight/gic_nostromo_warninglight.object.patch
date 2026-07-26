@@ -1,1 +1,7 @@
-[{"op":"add","path":"/nekiDescription","value":"The flashing light usually means \"everyone panic.\""}]
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "The flashing light usually \nmeans \"everyone panic.\""
+  }
+]
