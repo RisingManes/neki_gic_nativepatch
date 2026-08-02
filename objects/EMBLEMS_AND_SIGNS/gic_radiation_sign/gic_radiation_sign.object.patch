@@ -2,10 +2,6 @@
   {
     "op": "add",
     "path": "/nekiDescription",
-<<<<<<< HEAD
     "value": "I was told I shouldn't be here;\nI feel a bit sick standing here."
-=======
-    "value": "I shouldn't be here. I shouldn't."
->>>>>>> 819e70162361233f05619ee7e7a7f555e15ba6a9
   }
 ]
