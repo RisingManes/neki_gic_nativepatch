@@ -1,1 +1,7 @@
-[{"op":"add","path":"/nekiDescription","value":"A noisy little noodle-\n...why do you have a hat now?"}]
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "A noisy little noodle inside a-\n...why does the box have a hat?"
+  }
+]

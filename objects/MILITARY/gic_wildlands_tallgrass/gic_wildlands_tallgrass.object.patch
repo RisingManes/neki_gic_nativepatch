@@ -1,1 +1,7 @@
-[{"op":"add","path":"/nekiDescription","value":"Spiky stalking weed."}]
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "^gray;*sneeze*^reset;\nIt tickles my nose!"
+  }
+]

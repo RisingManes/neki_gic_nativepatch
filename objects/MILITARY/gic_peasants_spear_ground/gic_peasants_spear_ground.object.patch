@@ -1,1 +1,7 @@
-[{"op":"add","path":"/nekiDescription","value":"A pointy wooden stick someone left behind."}]
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "A pointy wooden stick someone \nleft behind."
+  }
+]
