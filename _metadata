@@ -1,7 +1,7 @@
 {
   "version" : "8.8.8.8.8.8.8.8.8",
-  "author" : "Mimi_nyan, ErrantWitch",
-  "description" : "This patch adds support for the Neki in Galaxy in Conflict! Currently only the starter mission is supported.\nCredit where credit is due: this would not have been possible without Kawa's json patcher and the modder community attached to OpenStarbound.\nNote that oSB is NOT required for this to work! (I hope)\nCurrent issues: The codex page still breaks... sorry about that.",
+  "author" : "Mimi_nyan, ErrantWitch, WyvernsRCool",
+  "description" : "This patch adds support for the Neki in Galaxy in Conflict! Currently only the starter mission is supported.\n  Credits:\n  Juni & Friends: Original Neki race\n  Kawa: object patcher\n  Omeruin: Improved Racial Scan Patcher\n  WyvernsRCool: Codex support!\n   OpenStarbound community: General help and cheer :3\n\n  ...\n  8",
   "name" : "neki_gic_nativepatch",
   "friendlyName" : "Neki in Conflict! A Neki x Galaxy in Conflict Support Patch",
   "includes" : ["Neki", "Galaxy_in_Conflict"]
