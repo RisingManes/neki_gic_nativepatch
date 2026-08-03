@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/nekiDescription",
+    "value": "^gray;*yells inside*^reset;\nMy voice sounds funny."
+  }
+]
